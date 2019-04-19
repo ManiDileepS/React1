@@ -9,18 +9,79 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(5px + 2vmin);
+  color:black;
 }
 
+.App-Nodata{
+  text-align: center;
+  color: grey;
+}
 .App-link {
   color: #61dafb;
+}
+
+
+#employee {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#employee td, #employee th {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+/* #employee tr:nth-child(even){background-color: #f2f2f2;} */
+
+/* #employee tr:hover {background-color: #ddd;} */
+
+#employee th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  /* color: white; */
+}
+
+.main_tables{
+  display: flex;
+}
+.department{
+  margin-left: 50px;
+}
+
+#emps {
+  border-collapse: collapse;
+}
+
+#emps td, #emps th {
+  border: 1px solid grey;
+  padding: 2px 5px;
+}
+
+#emps th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:khaki;
+  color:black;
+}
+
+
+
+
+.custom-select{
+  margin: 50px 0px;
+}
+
+select{
+  padding: 10px;
+  width: 200px;
 }
 
 @keyframes App-logo-spin {
